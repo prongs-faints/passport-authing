@@ -1,6 +1,9 @@
 {
-  "name": "passport-authing",
-  "version": "0.0.0",
+  "name": "@jeff-tian/passport-authing",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
   "description": "Authing platform authentication strategy for Passport.js",
   "main": "lib/index.js",
   "scripts": {
