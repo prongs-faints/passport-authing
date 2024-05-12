@@ -63,13 +63,13 @@ describe('authing strategy', function () {
         .expectedIssuer.should.eql('https://foobar.com/');
 
       strategy.options
-        .authorizationURL.should.eql('https://foobar.com/');
+        .authorizationURL.should.eql('https://foobar.com/authorize');
 
       strategy.options
-        .tokenURL.should.eql('https://foobar.com/oidc/token');
+        .tokenURL.should.eql('https://foobar.com/oauth/token');
 
       strategy.options
-        .userInfoURL.should.eql('https://foobar.com/oidc/me');
+        .userInfoURL.should.eql('https://foobar.com/userinfo');
 
       strategy.options
         .apiUrl.should.eql('https://foobar.com/api');
