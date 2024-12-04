@@ -1,5 +1,5 @@
 {
-  "name": "@jeff-tian/passport-authing",
+  "name": "@brickverse/passport-authing",
   "publishConfig": {
     "access": "public"
   },
